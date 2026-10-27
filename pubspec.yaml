@@ -1,0 +1,29 @@
+name: afterimage
+description: "AFTERIMAGE - Your past self is trying to stop you. A top-down survival arcade game."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.23.0
+  shared_preferences: ^2.3.4
+  google_mobile_ads: ^9.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/sfx/
+    - assets/audio/music/
+    - assets/images/
+    - assets/fonts/
